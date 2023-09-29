@@ -16,22 +16,22 @@ font-family: "raleway";
 }
 .logo span {
     color: var(--IRIS)
+}
+nav .logo{
+    color: var(--NAVY)
 
 }
 ul.list{
 list-style: none;
 padding-left: 0;
 }
-nav.logo{
-    color: var(--NAVY)
-
-
-}
-
 .bg-dark-title{
     text-align: center;
     background-color: var(--NAVY);
     color: var(--WHITE)
+    width: 1440px;
+    height: 600px;
+    flex-shrink: 0;
 
 }
 .bg-dark{
