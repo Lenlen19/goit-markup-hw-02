@@ -6,32 +6,56 @@
     --NAVY: #2E2F42;
     --SLATE:#434455;
 
-    .body{
+body{
         font-family: "roboto", sans-serif;
     }
 }
 .logo{
 text-decoration: none;
-font-family: "raleway";
+font-family: "raleway",sans-serif  ;
+font-size: 18px;
+font-weight: 800;
+line-height: 21px;
+letter-spacing: 0.54px;
+text-transform: uppercase;
+
 }
 .logo span {
     color: var(--IRIS)
 }
 nav .logo{
     color: var(--NAVY)
+}
+footer .logo{
+    color: var(--CLOUD)
+}
 
-}
-ul.list{
-list-style: none;
-padding-left: 0;
-}
-.bg-dark-title{
+.hero{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 60px;
+    letter-spacing: 1.12px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
     background-color: var(--NAVY);
     color: var(--WHITE)
-    width: 1440px;
-    height: 600px;
-    flex-shrink: 0;
+   
+}
+ul.list {
+    list-style: none;
+    text-decoration: none;
+    padding-left: 0px
+    color: var(--NAVY)
+}
+div ul.list li a{
+    color: var(--navy)
+    list-style: none;
+    text-decoration: none;
+    padding-left: 0px
 
 }
 .bg-dark{
