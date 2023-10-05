@@ -9,6 +9,9 @@
 }
 body{
     font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    line-height: 150%;
+    
 }
 .logo{
 text-decoration: none;
@@ -40,48 +43,13 @@ footer .logo{
 }
 
 
-.hero{
-    color: var(--WHITE, #FFF);
-    text-align: center;
-    /* Header 1 */
-    font-family: Roboto;
-    font-size: 56px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 60px; /* 107.143% */
-    letter-spacing: 1.12px;
     
-
-    text-transform: uppercase;
-    font-weight: 700;
-    font-size: 56px;
-    line-height: 60px;
-    letter-spacing: 2px;
-   
-    display: flex;
-    flex-direction: column;
-    justify-content: top;
-    align-items: center;
+.hero {
     background-color: var(--NAVY);
-  
-}
-.order-btn{
-    border-radius: 4px;
-    background: var(--IRIS);
-    box-shadow: 0px 4px 4px 0px;
     color: var(--WHITE)
-    padding: 16px 32px;
-    font-family: "Roboto";
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 24px;
-    letter-spacing: 0.64px;
-    
-    width: 180px;
-    
-    display: flex;
-    justify-content:flex-end;
-
+    }
+.hero-name{
+    text-align: center;
 }
 ul.list {
     list-style: none;
